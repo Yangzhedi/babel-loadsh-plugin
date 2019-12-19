@@ -1,0 +1,1 @@
+_.get(data, 'content')

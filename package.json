@@ -1,0 +1,33 @@
+{
+  "name": "babel-loadsh-plugin",
+  "version": "0.0.1",
+  "description": "if you want to change the file, run `npx babel test/input.js -o test/output.js`",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx babel test/input.js -o test/output.js"
+  },
+  "author": "yangzhedi",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yangzhedi/babel-loadsh-plugin.git"
+  },
+  "keywords": [
+    "babel",
+    "loadsh",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/Yangzhedi/babel-loadsh-plugin/issues"
+  },
+  "homepage": "https://github.com/Yangzhedi/babel-loadsh-plugin#readme"
+}
